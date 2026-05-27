@@ -61,7 +61,7 @@ export default function RootLayout({
               <Link href="/about" className="hover:text-white transition-colors duration-300">About</Link>
               <Link href="/projects" className="hover:text-white transition-colors duration-300">Projects</Link>
               <Link href="/experience" className="hover:text-white transition-colors duration-300">Experience</Link>
-              <Link href="/certificates" className="hover:text-white transition-colors duration-300 hidden sm:block">Certs</Link>
+              <Link href="/certificates" className="hover:text-white transition-colors duration-300 hidden sm:block">Certficates</Link>
             </div>
             
           </nav>
