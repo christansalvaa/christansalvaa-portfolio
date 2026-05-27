@@ -24,7 +24,7 @@ export default function Home() {
 
       {/* Bio / Hook (Added very faint white glow for readability) */}
       <p className="text-neutral-400 text-lg md:text-xl max-w-2xl mb-12 leading-relaxed drop-shadow-[0_0_8px_rgba(255,255,255,0.15)]">
-        I specialize in building complex logic, debugging intricate mechanics, and writing clean, scalable code that brings technical ideas to life.
+        I turn <strong>bold</strong> ideas into <em>italic</em> ones. Come check my works out!
       </p>
 
       {/* Call to Action Buttons */}
