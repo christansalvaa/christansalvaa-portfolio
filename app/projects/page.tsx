@@ -18,7 +18,7 @@ const myProjects = [
     ],
     image: "https://placehold.co/800x450/0a0a0a/ef4444?text=In Developement",
     links: {
-      github: "https://github.com/whileyouslept-games/Project-LL",
+      github: "",
       itch: "",
       trailer: "",
       demo: ""
