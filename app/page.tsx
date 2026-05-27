@@ -33,7 +33,7 @@ export default function Home() {
         {/* Primary CTA (Download Resume) */}
         {/* Note: put your resume file in the "public" folder of your Next.js app! */}
         <a 
-          href="/resume.pdf" 
+          href="/CV - Salva.pdf" 
           target="_blank"
           rel="noopener noreferrer"
           className="px-8 py-4 bg-red-600/90 text-white font-bold rounded hover:bg-red-500 shadow-[0_0_20px_rgba(220,38,38,0.3)] hover:shadow-[0_0_30px_rgba(239,68,68,0.6)] hover:-translate-y-1 transition-all duration-300 tracking-wider w-full sm:w-auto text-center"
