@@ -4,7 +4,7 @@
 
 Welcome to the repository for my personal developer portfolio! This website serves as a central hub for all my projects and certificates.
 
-You can view the live site here: **[christansalvaa.vercel.app]**
+You can view the live site here: [christansalvaa.vercel.app](christansalvaa.vercel.app)
 
 ## 🛠️ Tech Stack
 
