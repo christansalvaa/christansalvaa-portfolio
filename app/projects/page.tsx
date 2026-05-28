@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-
+ 
 const myProjects = [
   {
     id: "project-ll",
@@ -38,7 +38,7 @@ const myProjects = [
     ],
     image: "https://placehold.co/800x450/0a0a0a/ef4444?text=In Developement",
     links: {
-      github: "https://github.com/christansalvaa/Iris"
+      github: ""
     }
   },
   {
@@ -83,7 +83,7 @@ const myProjects = [
     id: "marshmallow-3d",
     title: "Marshmallow 3D",
     year: "2026",
-    state: "Live",
+    state: "Unpublished",
     role: "Project Member",
     description: "A 3D maze game where you are a marshmallow.",
     tools: ["Godot", "GDScript"],
@@ -91,28 +91,20 @@ const myProjects = [
       "Implemented audio to player movement.",
       "Developed the 'finish' state, intergrating triggers and transition logic."
     ],
-    image: "https://placehold.co/800x450/0a0a0a/ef4444?text=Placeholder",
-    links: {
-      github: "",
-      itch: ""
-    }
+    image: "/Marshmallow 3D.jpg"
   },
   {
     id: "marshmallow-2d",
     title: "Marshmalllow 2D",
     year: "2026",
-    state: "Live",
+    state: "Unpublished",
     role: "Project Member",
     description: "A 2D maze game where you are a marshmallow.",
-    tools: ["Godot", "GDScript"],
+    tools: ["GameMakerStudio2", "GML"],
     contributions: [
       "Created the map design for the final level."
     ],
-    image: "https://placehold.co/800x450/0a0a0a/ef4444?text=Placeholder",
-    links: {
-      github: "",
-      itch: "" 
-    }
+    image: "/Marshmallow 2D.jpg"
   },
   {
     id: "battle-city",
@@ -294,22 +286,19 @@ export default function ProjectsPage() {
               {/* Text & Data (Restored to full detail) */}
               <div className="w-full flex-1 flex flex-col justify-center">
                 
-                <div className="flex flex-wrap items-center justify-between gap-4 mb-2">
-                  <h2 className="text-2xl font-bold text-white flex items-baseline gap-2 group-hover:text-red-400 transition-colors">
+                {/* Title & Badge Container */}
+                <div className="flex flex-row items-center justify-between gap-3 mb-2">
+                  <h2 className="text-2xl font-bold text-white flex flex-wrap items-baseline gap-2 group-hover:text-red-400 transition-colors">
                     {project.title} 
                     <span className="text-neutral-500 text-base font-normal tracking-wide">({project.year})</span>
                   </h2>
-                  <span className="px-3 py-1 bg-red-950/40 border border-red-900 text-red-400 text-xs font-bold uppercase tracking-widest rounded-full">
+                  <span className="shrink-0 px-3 py-1 bg-red-950/40 border border-red-900 text-red-400 text-[10px] sm:text-xs font-bold uppercase tracking-widest rounded-full">
                     {project.state}
                   </span>
                 </div>
                 
                 <p className="text-red-500 text-sm font-bold uppercase tracking-widest mb-4">
                   {project.role}
-                </p>
-                
-                <p className="text-neutral-300 text-base leading-relaxed mb-4">
-                  {project.description}
                 </p>
 
                 {/* Contributions Box (Restored!) */}
